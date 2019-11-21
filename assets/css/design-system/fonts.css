@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
+:root {
+  --font-primary: 'Roboto Slab', serif;
+  --font-secondary: 'Open Sans', sans-serif;
+}
+
+.ds-font-primary {
+  font-family: var(--font-primary);
+}
+
+.ds-font-secondary {
+  font-family: var(--font-secondary);
+}

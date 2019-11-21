@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/app.js"></script>
+</head>
+
+<body class="flex">
+    <nav class="bg-purple-600 h-screen font-mono px-4 pt-2 text-white">
+        <a target="pages" href="pages/design-system.html" class="font-bold border-b-2 pb-1 text-xl uppercase">Design System</a>
+        <ul>
+            <li class="pt-2"><strong>Atoms</strong>
+                <ul class="pl-4">
+                    <li><a target="pages" href="pages/atoms/colours.html">Colours</a></li>
+                    <li><a target="pages" href="pages/atoms/typography.html">Typography</a></li>
+                </ul>
+            </li>
+            <li class="pt-2"><strong>Molecules</strong>
+                <ul class="pl-4">
+                    <li><a target="pages" href="pages/molecules/buttons.html">Buttons</a></li>
+                </ul>
+            </li>
+            <li class="pt-2"><strong>Organisms</strong>
+                <ul class="pl-4">
+                    <li><a target="pages" href="pages/organisms/lists.html">Lists</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <iframe name="pages" frameborder="0" src="pages/design-system.html" class="flex-grow"></iframe>
+</body>
+
+</html>
