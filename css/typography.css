@@ -1,0 +1,27 @@
+body {
+    font-family: var(--font-family-body);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--color-dark-grey);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-headings);
+}
+h1 {
+    font-size: 20px;
+    color: white;
+    margin-left: -10px;
+    font-family: 'Open Sans light';
+}
+
+h2 {
+    color: white;
+    font-family: 'Open Sans Bold';
+}
+a {
+    text-decoration: none;
+}
+h4 {
+    font-family: 'Open Sans Light';
+}

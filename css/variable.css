@@ -1,0 +1,16 @@
+:root {
+    /* colors --------- */
+    --color-white: rgba(255, 255, 255, 1);
+    --color-light-grey: rgb(245, 240, 240);
+    --color-mid-grey: rgba(120, 120, 120, 1);
+    --color-dark-grey: rgba(60, 60, 60, 1);
+    --color-black: rgba(0, 0, 0, 1);
+    --color-red: rgba(209,35,42,1);
+
+    /* fonts --------- */
+    --font-family-body: 'poppins', sans-serif;
+    --font-family-headings: 'poppins-bold', sans-serif;
+
+    /* layout --------- */
+    --grid-gutter: 24px;
+}
